@@ -243,7 +243,7 @@ function waitForElement(selector) {
 			childList: true,
 			subtree: true
 		});
-	})
+	});
 }
 
 function logTrace() {

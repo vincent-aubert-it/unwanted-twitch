@@ -344,7 +344,7 @@
 		const observerCooldown = 500;
 
 		const targetSelector = '[data-a-target^="side-nav-bar"]';
-        const target = await waitForElement(targetSelector)
+        const target = await waitForElement(targetSelector);
 
 		if (target !== null) {
 
